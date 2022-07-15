@@ -1,0 +1,15 @@
+[database]
+postgres_host=localhost
+postgres_port=5432
+postgres_db_name=botstore
+; Database role used by the bot engine to connect
+postgres_app_user=postgres
+postgres_app_password=
+
+[exchange_coingecko]
+; debug mode, may be needed for some work when checking the script or debugging
+debug = true
+; general endpoint api
+url_api=https://api.coingecko.com/api/v3
+; coint pair to check exchange
+coin_pairs=bitcoin/usd,ethereum/usd,monero/usd

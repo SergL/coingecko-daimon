@@ -1,0 +1,14 @@
+{
+ 
+    "require": {
+        "ext-json": "*",
+        "ext-pgsql": "*",
+        "ext-curl": "*"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Bot\\": "src/"
+        }
+    }
+}
